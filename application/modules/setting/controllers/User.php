@@ -38,7 +38,7 @@ class User extends MX_Controller{
             $row[] = $val->telp_user;
             $row[] = $val->nama_role;
 
-            $row[] = '<a class="btn btn-xs btn-warning" style="height: 25px;" href="javascript:void(0)" title="Edit" onclick="edit_data('."'".$val->idxx_user."'".')"><i class=" mdi mdi-account-edit-outline"></i></a>'.$delete;
+            $row[] = '<a class="btn btn-xs btn-warning" style="height: 25px;" href="javascript:void(0)" title="Edit" onclick="edit_data('."'".$val->idxx_user."'".')"><i class=" mdi mdi-account-edit-outline"></i></a>&nbsp;'.$delete;
         
             $data[] = $row;
         }
