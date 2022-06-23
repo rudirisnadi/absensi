@@ -269,7 +269,7 @@
 		$('#nama_gift').val('');
 		$('#tglx_absn').val('<?= date('d-m-Y') ?>');
 		$('#jamx_msuk').val('<?= date('H:i') ?>');
-		$('#jamx_klar').val('');
+		$('#jamx_klar').val('00:00');
 		$(".btn-save").attr("disabled", false);
 		$('#idxx_user').val('');
 		$('#s2id_idxx_user a .select2-chosen').html('- - - Karyawan - - -');
